@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-standard",
+  "version": "0.0.0.1",
+  "description": "Api nodejs design pattern with mvc architecture",
+  "main": "server.js",
+  "author": "Daniel Marques",
+  "url": "https://descentralizado.com.br/",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "nodemon": "^2.0.1",
+    "prettier": "^1.19.1",
+    "sucrase": "^3.10.1"
+  }
+}
